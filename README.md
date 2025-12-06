@@ -35,7 +35,7 @@ MiniRAG/
 
 │── .gitignore                   # Fichiers ignorés
 
-└── data/                        # (Optionnel) PDF d'exemple
+└── data                        # PDF d'exemple : Syntec-Conseil_Glossaire-des-principaux-métiers-de-la-Data mais vous pouvez mettre celui que vous voulez.
 
 ### 📘 Exemple de pipeline RAG
 
