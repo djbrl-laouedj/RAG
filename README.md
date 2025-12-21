@@ -86,7 +86,7 @@ L’interface s’ouvre automatiquement dans le navigateur.
 
 Téléchargez tous les fichiers.
 
-🔧 Configuration ngrok
+- Configuration ngrok
 
 Si vous voulez exposer votre interface Streamlit :
 
