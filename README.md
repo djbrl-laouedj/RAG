@@ -31,7 +31,9 @@ MiniRAG/
 
 │── requirements.txt             # Versions exactes testées
 
-│── README.md                    # Documentation
+│── README.md # Documentation (English)
+
+│── README_FR.md # Documentation (French)
 
 │── .gitignore                   # Fichiers ignorés
 
@@ -60,6 +62,7 @@ Voici la logique générale du projet :
 1️⃣ Cloner le projet
 
 git clone https://github.com/djbrl-laouedj/MiniRAG.git
+
 cd MiniRAG
 
 2️⃣ Installer les dépendances
@@ -135,7 +138,7 @@ except:
 
 <img width="1028" height="154" alt="image" src="https://github.com/user-attachments/assets/fb838479-3c1a-4307-97ba-a94f3b706254" />
 
-Améliorations possibles
+### Améliorations possibles
 
 Ajouter plusieurs PDF (multi-corpus RAG)
 
