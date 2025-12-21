@@ -17,6 +17,7 @@ It combines **LangChain**, **FAISS**, **BGE embeddings**, **reranking**, and **l
 ## Project Structure
 
 MiniRAG/
+
 │── My_Streamlit_app.py # Streamlit interface
 
 │── MiniRAG_Djebril_LAOUEDJ.ipynb # Project notebook
