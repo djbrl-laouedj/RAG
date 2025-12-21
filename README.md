@@ -1,9 +1,9 @@
-## 🧠 Mini RAG
+## Mini RAG
 
 This project presents a complete **RAG (Retrieval-Augmented Generation)** system that allows querying a PDF document through an intelligent chatbot.  
 It combines **LangChain**, **FAISS**, **BGE embeddings**, **reranking**, and **local generation Ollama**.
 
-## 🚀 Features
+## Features
 
 - Automatic PDF loading (e.g. *Syntec Conseil – Data Jobs Glossary*)
 - Intelligent text chunking
