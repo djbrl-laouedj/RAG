@@ -1,9 +1,9 @@
-## 🧠 Mini RAG
+## Mini RAG
 
 Ce projet présente un système RAG (Retrieval-Augmented Generation) complet permettant d'interroger un document PDF via un chatbot intelligent.
 Il combine LangChain, FAISS, BGE embeddings, reranking et une génération locale via Ollama.
 
-### 🚀 Fonctionnalités
+### Fonctionnalités
 
 - Chargement automatique d’un PDF (ex : Syntec Conseil – Métiers de la Data)
 
@@ -37,7 +37,7 @@ MiniRAG/
 
 └── data                        # PDF d'exemple : Syntec-Conseil_Glossaire-des-principaux-métiers-de-la-Data mais vous pouvez mettre celui que vous voulez.
 
-### 📘 Exemple de pipeline RAG
+### Exemple de pipeline RAG
 
 Voici la logique générale du projet :
 
@@ -55,7 +55,7 @@ Voici la logique générale du projet :
 
 - Génération via Mistral:instruct (Ollama)
 
-### ⚙️ Installation
+### Installation
 
 1️⃣ Cloner le projet
 
@@ -135,7 +135,7 @@ except:
 
 <img width="1028" height="154" alt="image" src="https://github.com/user-attachments/assets/fb838479-3c1a-4307-97ba-a94f3b706254" />
 
-💡 Améliorations possibles
+Améliorations possibles
 
 Ajouter plusieurs PDF (multi-corpus RAG)
 
