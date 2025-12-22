@@ -61,7 +61,7 @@ Voici la logique générale du projet :
 
 1️⃣ Cloner le projet
 
-git clone https://github.com/djbrl-laouedj/MiniRAG.git
+git clone https://github.com/djbrl-laouedj/RAG.git
 
 cd MiniRAG
 
