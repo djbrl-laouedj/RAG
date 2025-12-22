@@ -52,7 +52,7 @@ The global logic of the project is as follows:
 
 ### 1️⃣ Clone the repository
 
-git clone https://github.com/djbrl-laouedj/MiniRAG.git
+git clone https://github.com/djbrl-laouedj/RAG.git
 
 cd MiniRAG
 
