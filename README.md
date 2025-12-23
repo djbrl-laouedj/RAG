@@ -154,7 +154,7 @@ Add support for images and tables
 
 Switch to a more powerful LLM (e.g. Llama 3.1 8B)
 
-👤 Author
+### 👤 Author
 
 Project developed by Djebril Laouedj
 5th-year student in Big Data & Artificial Intelligence – ECE Paris
