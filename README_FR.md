@@ -22,7 +22,7 @@ Il combine LangChain, FAISS, BGE embeddings, reranking et une génération local
 - Pipeline optimisé : MMR + Reranker + Prompt anti-hallucination
 
 ### Structure du projet :
-
+```
 MiniRAG/
 
 │── My_Sreamlit_app.py           # Interface Streamlit
@@ -38,7 +38,7 @@ MiniRAG/
 │── .gitignore                   # Fichiers ignorés
 
 └── data                        # PDF d'exemple : Syntec-Conseil_Glossaire-des-principaux-métiers-de-la-Data mais vous pouvez mettre celui que vous voulez.
-
+```
 ### Exemple de pipeline RAG
 
 Voici la logique générale du projet :
@@ -60,29 +60,30 @@ Voici la logique générale du projet :
 ### Installation
 
 1️⃣ Cloner le projet
-
+```
 git clone https://github.com/djbrl-laouedj/RAG.git
-
+```
+```
 cd MiniRAG
-
+```
 2️⃣ Installer les dépendances
 
 ⚠️ Les versions sont exactes pour éviter les conflits LangChain. Merci d'utiliser requirements.txt.
-
+```
 pip install -r requirements.txt
-
+```
 3️⃣ Installer Ollama (si pas déjà installé)
 
 ➡️ https://ollama.com/download
 
 Puis télécharger le modèle utilisé :
-
+```
 ollama pull mistral:instruct
-
+```
 ▶️ Lancer l'application Streamlit
-
+```
 streamlit run app.py
-
+```
 L’interface s’ouvre automatiquement dans le navigateur.
 
 ### Sur Google Colab :
@@ -98,7 +99,7 @@ Créer un compte : https://ngrok.com
 Récupèrez votre clé : https://dashboard.ngrok.com/get-started/your-authtoken
 
 Puis ajoutez-cela à la fin d evotre code :
-
+```
 from pyngrok import ngrok
 ngrok.set_auth_token("<VotreClé>")
 
@@ -106,16 +107,16 @@ ngrok.set_auth_token("<VotreClé>")
 
 public_url = ngrok.connect(8501)
 public_url
-
+```
 Et ce code pour relancer le streamlit :
-
+```
 // stop tous les tunnels ngrok pour repartir propre
 from pyngrok import ngrok
 try:
     ngrok.kill()
 except:
     pass
-
+```
 ### Voilà pour finir un mini user-guide :
 
 1. Uploader un PDF :
@@ -148,7 +149,7 @@ Support des images / tableaux
 
 Passage à un LLM plus puissant (ex : Llama 3.1 8B)
 
-👤 Auteur
+### 👤 Auteur
 
 Projet réalisé par Djebril Laouedj
 Étudiant en 5ème année en Big Data & IA – ECE Paris.
