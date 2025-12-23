@@ -15,8 +15,8 @@ It combines **LangChain**, **FAISS**, **BGE embeddings**, **reranking**, and **l
 - Optimized pipeline: **MMR + Reranker + Anti-hallucination prompt**
 
 ## Project Structure
-
-MiniRAG/
+```
+RAG/
 
 │── My_Streamlit_app.py # Streamlit interface
 
@@ -31,6 +31,7 @@ MiniRAG/
 │── .gitignore # Ignored files
 
 └── data/ # Example PDF (can be replaced by any PDF)
+```
 
 The provided PDF is:
 `Syntec-Conseil_Glossaire-des-principaux-métiers-de-la-Data.pdf`,  
@@ -51,11 +52,12 @@ The global logic of the project is as follows:
 ## Installation
 
 ### 1️⃣ Clone the repository
-
+```
 git clone https://github.com/djbrl-laouedj/RAG.git
-
+```
+```
 cd MiniRAG
-
+```
 2️⃣ Install dependencies
 
 ⚠️ Exact versions are required to avoid LangChain conflicts.
@@ -67,13 +69,13 @@ pip install -r requirements.txt
 ➡️ https://ollama.com/download
 
 Then download the model used in this project:
-
+```
 ollama pull mistral:instruct
-
+```
 ▶️ Run the Streamlit application
-
+```
 streamlit run My_Streamlit_app.py
-
+```
 The interface will automatically open in your browser.
 
 ### Running on Google Colab
@@ -93,27 +95,27 @@ Create an account: https://ngrok.com
 Get your auth token: https://dashboard.ngrok.com/get-started/your-authtoken
 
 Add the following code at the end of your script:
-
+```
 from pyngrok import ngrok
 ngrok.set_auth_token("<YOUR_NGROK_TOKEN>")
-
+```
 Run Streamlit:
-
+```
 !streamlit run My_Streamlit_app.py &>/dev/null &
-
+```
 Expose the app:
-
+```
 public_url = ngrok.connect(8501)
 public_url
-
+```
 To restart ngrok cleanly if needed:
-
+```
 from pyngrok import ngrok
 try:
     ngrok.kill()
 except:
     pass
-
+```
 
 ### MiniRAG User Guide
 
