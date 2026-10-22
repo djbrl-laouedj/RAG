@@ -64,7 +64,7 @@ Voici la logique générale du projet :
 git clone https://github.com/djbrl-laouedj/RAG.git
 ```
 ```
-cd MiniRAG
+cd RAG
 ```
 2️⃣ Installer les dépendances
 
