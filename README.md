@@ -56,7 +56,7 @@ The global logic of the project is as follows:
 git clone https://github.com/djbrl-laouedj/RAG.git
 ```
 ```
-cd MiniRAG
+cd RAG
 ```
 2️⃣ Install dependencies
 
